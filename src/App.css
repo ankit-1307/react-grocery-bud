@@ -8,7 +8,8 @@ main {
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    margin-top: 6rem;
 }
 h2 {
     font-size: 2rem;
@@ -108,12 +109,16 @@ h2 {
 .remove-item:hover {
     background-color: #e16262;
 }
-.checked{
+.checked {
     text-decoration: line-through;
 }
 @media screen and (min-width: 768px) {
     .container {
         min-width: 50vw;
         padding: 2rem 5rem;
+    }
+    .main {
+        align-items: center;
+        margin-top: 0rem;
     }
 }
